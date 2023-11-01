@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORMULARIO DE INSCRIÇÃO</title>
+        <style>
+            
+            div.corpo{
+                display: flex;
+                align-items: center;
+            }
+            body{
+                font-size: larger;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                background-color: rgb(255, 255, 255);
+            }
+            p{
+                font-size: small;
+            }
+            label{
+                display: inline-block;
+                width: 120px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1>FORMULÁRIO DE INSCRIÇÃO:</h1>
+        <h3>Para se increver na EXPOTEC 2023 preencha os campos abaixo: </h3>
+        <form method="post" action="#" enctype="">
+            <ul>
+            <li>
+                <label for="Nome">NOME:</label>
+                <input type="text" name="Nome" id="Nome" placeholder="Nome" size="40" required><br>
+            </li>
+            <li>
+                <label for="Data_Nasc">DATA NASC:</label>
+                <input type="date" name="Data_Nasc" id="Data_Nasc" placeholder="Data_Nasc" size="40" required>
+            </li>
+            <li>
+                <label for="CPF">CPF:</label>
+                <input type="number" name="CPF" id="CPF" placeholder="CPF" size="40" required>
+            </li>
+            <li>
+                <label for="Matricula">MATRÍCULA:</label>
+                <input type="text" name="Matricula" id="Matricula" placeholder="Matricula" size="40" required>
+            </li>
+            <li>
+                <label for="Telefone">TELEFONE:</label>
+                <input type="text" name="Telefone" id="Telefone" placeholder="Telefone" size="40" required>
+            </li>
+            <li>
+                <label for="Email">E-MAIL:</label>
+                <input type="email" name="Email" id="Email" placeholder="Email" size="40" required>
+            </li>
+            <li>
+                <p><input type="submit" value="ENVIAR"></p>
+            </li>
+            </ul>
+        </form>
+        
+    </body>
+</html>
